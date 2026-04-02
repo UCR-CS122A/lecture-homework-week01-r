@@ -58,7 +58,7 @@ Finally, implement the remaining tests. The first test (for `A=0, B=0`) is provi
 Before running the simulation, you must compile (synthesize) the code using `iverilog`. Run the following command in your terminal:
 
 ```sh
-iverilog -o testbench -g2009 testbench.sv halfadder.sv
+iverilog -o testbench -g2009 testbench.sv
 ```
 
 This command generates a simulation file named `testbench`.
