@@ -24,10 +24,12 @@ end
 
 // Write Test Stimulus
 task test_00();
-    A = 0;
-    B = 0;
-    #5;
-    pass &= S == 0 & C == 0;
+    begin
+        A = 0;
+        B = 0;
+        #5;
+        pass &= S == 0 & C == 0;
+    end
 endtask
 
 task test_01();
