@@ -31,15 +31,21 @@ task test_00();
 endtask
 
 task test_01();
-    // Put your test for A = 0, and B = 1
+    begin
+        // Put your test for A = 0, and B = 1
+    end
 endtask
 
 task test_10();
-    // Put your test for A = 1, and B = 0
+    begin
+        // Put your test for A = 0, and B = 1
+    end
 endtask
 
 task test_11 ();
-    // Put your test for A = 1, and B = 1
+    begin
+        // Put your test for A = 0, and B = 1
+    end
 endtask
 
 // Write Checker
@@ -58,4 +64,4 @@ initial begin
 
 end
 
-endmodule;
+endmodule
